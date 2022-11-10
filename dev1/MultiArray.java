@@ -33,5 +33,6 @@ public class MultiArray {
 	   }
 	   System.out.println(vStr /* magicSquare[0][i] */);
 	   System.out.println(Arrays.toString(Test));
+	   
 	}
 }

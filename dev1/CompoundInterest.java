@@ -41,6 +41,7 @@ public class CompoundInterest {
 		System.out.println();
 		
 		// Распечатать таблицу доходов
+		
 		formatter = NumberFormat.getCurrencyInstance();
 		for (int i = 0; i < balance.length; i++) {
 			// Напечтать строку таблицы 

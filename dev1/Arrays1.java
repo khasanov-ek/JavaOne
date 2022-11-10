@@ -18,12 +18,15 @@ public class Arrays1 {
 		
 		int[] arr1;
 		int arr2[];
-		
+		//Один массив можно скопировать в другой, но при этом обе переменные будут ссылаться на один и тот же массив.
 		int[] smallPrimes = {2, 3, 5, 7, 11, 17};
-		
 		int[] luckyNumbers = smallPrimes;
 		luckyNumbers[5] = 12;
 		System.out.println(luckyNumbers[5]);
+		
+		//еобходимо скопировать все элементы одного массива в другой, следует использовать метод arraycopy из класса System
+		//System.arraycopy(from, fromIndex, to, toIndex, count);
+		
 		
 	}
 }
