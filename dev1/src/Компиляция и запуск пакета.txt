@@ -1,0 +1,14 @@
+Пакеты
+-----------------------------
+
+>dir src\first
+>javac src\first\*.java
+>java src.first.Robot
+
+
+
+/*  Обращение к пакету из стороннего приложения  
+javac -cp d:\GitHub\JavaOne\dev1\ CallPackage.java
+ Сделал public class 
+
+*/
