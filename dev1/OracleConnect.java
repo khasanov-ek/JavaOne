@@ -1,3 +1,13 @@
+/*  Запуск 
+java -cp d:\GitHub\ojdbc10.jar;d:\GitHub\orai18n.jar;d:\GitHub\JavaOne\dev1\ OracleConnect
+
+установка переменной окружения 
+set CLASSPATH=d:\GitHub\ojdbc10.jar;d:\GitHub\orai18n.jar;d:\GitHub\JavaOne\dev1\
+javac OracleConnect.java
+java OracleConnect
+
+
+*/
 import java.sql.*;
 //import java.sql.Connection;
 //import java.sql.DriverManager;
