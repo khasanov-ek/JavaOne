@@ -27,4 +27,20 @@ public class Test {
 	}	
 	return pArg1;
   }	  
+  
+  
+  public static int Recursion(int pArg1, int pCounter) {
+	  
+	  if (pCounter > 3) {
+		  System.out.println("Stop: pCounter = " + pCounter);
+		  return 0;
+	  }
+	  else  {
+		  System.out.println("Call recursion");
+		  return Recursion(1, pCounter + 1);
+	  }
+	  
+  }
+  
+  
 }

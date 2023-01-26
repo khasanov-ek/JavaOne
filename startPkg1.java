@@ -17,6 +17,7 @@ public class startPkg1 {
 		
 		final int cPLUS =    1;
 		
+	/*
 		sArg1 = 9;
 		sArg2 = 0;
 		sRet = Test.Calculator(Double.valueOf(sArg1), Double.valueOf(sArg2), Test.cPlus);
@@ -28,5 +29,14 @@ public class startPkg1 {
 		sRet = Test.Calculator(Double.valueOf(sArg1), Double.valueOf(sArg2), Test.cDivide);
 		System.out.println("sRet = " + sRet);
 		
+	*/
+	
+	 int sArg1;
+	 sArg1 = Test.Recursion(1, 1);
+	
+	
+	
 	}
+	
+	
 }
