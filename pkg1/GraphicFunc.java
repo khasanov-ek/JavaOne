@@ -19,7 +19,7 @@ public class GraphicFunc {
 		w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		w.setLayout(new BorderLayout(1,1));
 		w.setVisible(true);
-		paint("a");
+
 	}
 	
 	public static void paint(Graphics g) {

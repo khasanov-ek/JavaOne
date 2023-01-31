@@ -10,7 +10,7 @@ public class Gr1 extends JFrame{
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
 	
-	public void paint1(Graphics g){
+	public void paint(Graphics g){
 		g.setColor(Color.LIGHT_GRAY);
 		g.fillRect(0, 0, 300, 800);
 		g.setColor(Color.BLACK);
