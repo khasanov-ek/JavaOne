@@ -7,7 +7,7 @@
  
 */
 
-public class f1002_ValueConst {
+public class f0021_ValueConst {
 	
 	public static void main(String[] args) {
 		System.out.println("Переменные и константы");

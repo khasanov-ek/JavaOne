@@ -14,7 +14,7 @@ https://metanit.com/java/tutorial/2.11.php
 */
 
 
-public class f1001_Structure {
+public class f0211_Structure {
 	
 	public static void main(String[] args) {
 		System.out.println("F1001 Structure");
