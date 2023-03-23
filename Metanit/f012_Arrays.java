@@ -45,6 +45,34 @@ public class f012_Arrays {
 		nums11[2] = new int[5];
 		
 		
+		// foreach 
+		int[] array1 = new int[] {1, 2, 3, 4, 5};
+		for (int i : array1) {
+			System.out.print("i = " + i + ", ");
+		}
+		// or 
+		System.out.println("");
+		for (int i = 0; i < array1.length; i++) {
+			System.out.print("array1(" + i + ") = " + array1[i] + ", ");
+		}
+		
+		System.out.println("");
+		int[][] nums2 = new int[][]
+		{
+			{1, 2, 3},
+			{4, 5, 6},
+			{7, 8, 9}
+		};
+		
+		for (int i = 0; i < nums2.length; i++) {
+			for (int j = 0; j < nums2[i].length; j++) {
+				System.out.printf("%d ", nums2[i][j]);
+			}
+			System.out.println();
+		}
+		
+		
+		
 		
 	}
 }
