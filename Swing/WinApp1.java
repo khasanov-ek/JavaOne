@@ -18,7 +18,6 @@ public class WinApp1 /* extends JFrame implements ActionListener */{
 		a.setVisible(true);
 		*/
 		new WinApp1();
-		//System.exit(0);
 	}
 	
 	WinApp1() {
